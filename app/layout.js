@@ -1,6 +1,4 @@
-import type { Metadata } from 'next'
-
-export const metadata: Metadata = {
+export const metadata = {
   title: {
     default: 'Echitra',
     template: '%s | Echitra',
@@ -20,14 +18,7 @@ export const metadata: Metadata = {
     description: 'Watch movies and series on Echitra – your go-to destination for cinema.',
     url: 'https://echitra.vercel.app',
     siteName: 'Echitra',
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'Echitra – Movies & Series',
-      },
-    ],
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Echitra – Movies & Series' }],
     locale: 'en_US',
     type: 'website',
   },
